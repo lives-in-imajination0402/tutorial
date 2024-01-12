@@ -1,0 +1,165 @@
+
+/* Add custom styles here */
+.rounded {
+border-radius: 10px;
+}
+
+.shadow {
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+text-align: center;
+}
+
+.footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+
+}
+
+
+
+.form-group{
+    margin-top: 20px;
+}
+
+.buttongroup{
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    
+}
+
+.submit-button {
+    background-color: #0078d4;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease-out;
+}
+
+.submit-button:hover {
+    color: #fff;
+    background-color: #034272;
+}
+
+.submit-button:active {
+    transform: translateY(2px); /* Move the button down when pressed */
+}
+
+.button-up {
+    transform: translateY(-2px); /* Move the button up when released */
+    transition: transform 0.2s ease-in;
+}
+
+  .cancel-button {
+    background-color: #fa4d4d;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease-out;
+}
+  
+
+.cancel-button:hover {
+    color: #fff;
+    background-color: #970303;
+}  
+
+.cancel-button:active {
+    transform: translateY(2px); /* Move the button down when pressed */
+}
+
+.cbutton-up {
+    transform: translateY(-2px); /* Move the button up when released */
+    transition: transform 0.2s ease-in;
+}
+/* Add your custom loading spinner style here */
+
+.load{
+    display: flex;
+    justify-self: start;
+    gap: 5px;
+}
+
+.homie{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+  }
+
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-flex;
+    margin-top: 14px;
+    animation: scaling 2.5s ease-in-out infinite;
+}
+
+@keyframes scaling{
+    0%,100%{
+        transform: scale(0.2);
+        background-color: #30FFb7;
+    }
+    40%{
+        transform: scale(1);
+        background-color: #07deff;
+    }
+    50%{
+        transform: scale(1);
+        background-color: #0761ff;
+    }
+}
+
+.dot:nth-child(0){
+    animation-delay: 0s;
+}
+
+.dot:nth-child(1){
+    animation-delay: 0.2s;
+}
+.dot:nth-child(2){
+    animation-delay: 0.4s;
+}
+.dot:nth-child(3){
+    animation-delay: 0.6s;
+}
+.dot:nth-child(4){
+    animation-delay: 0.8s;
+}
+.dot:nth-child(5){
+    animation-delay: 1s;
+}
+.dot:nth-child(6){
+    animation-delay: 1.2s;
+}
+
+.btn-primary {
+    background-color: #0761ff;
+    border-color: #0761ff;
+  }
+  
+  
+
+.text-success {
+color: green; /* Change the color to your preferred success color */
+}
+
+.text-danger {
+color: red; /* Change the color to your preferred error color */
+}

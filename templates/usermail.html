@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slot Booking Confirmation</title>
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .header {
+        background-color: #0078d4;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+        border: 1px solid #ccc;
+      }
+      .content {
+        font-size: 16px;
+        line-height: 1.6;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Slot Booking Confirmation</h2>
+      </div>
+      <div class="content">
+        <p>
+          Hi {{ name }},
+          <br /><br />
+          Your slot has been booked successfully.
+          <br /><br />
+          <strong style="color: #0078d4">Slot Details</strong>
+          <br />
+          <strong>Slot Time:</strong> {{ slot_time }} <br /><br />
+          Thanks & Regards<br />
+          SlotBookingApp
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
